@@ -167,7 +167,6 @@ const News = () => {
                             fontSize: { md: ".9rem", xs: "0.3rem" },
                             fontWeight: { md: "300", xs: "200" },
                             width: { md: "200px", xs: "30px" },
-                            backgroundColor: "#00132b",
                             position:"absolute"
                           }}
                         >
