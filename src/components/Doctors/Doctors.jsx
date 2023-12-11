@@ -226,7 +226,6 @@ const Doctors = () => {
               id="email"
               label="Your Email"
               name="subscribe"
-              autoFocus
               sx={{
                 width: "90%",
                 ...textFieldStyling,
