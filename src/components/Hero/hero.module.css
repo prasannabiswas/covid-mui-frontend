@@ -1,0 +1,6 @@
+.hero {
+    background-color: #00132b;
+    height: calc(100vh - 4.5rem);
+    color: white;
+    z-index: -2;
+}
