@@ -1,18 +1,29 @@
 html {
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-    transition-duration: 500ms;transition: 1s;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  transition-duration: 500ms;
+  transition: 1s;
+  overflow: scroll;
 }
 
+ html::-webkit-scrollbar {
+  display: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+
+
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 section {
-    height: 100vh;
-    scroll-snap-align: center;
-    transition: 0.5s;
-    
+  height: 100vh;
+  scroll-snap-align: center;
+  transition: 0.5s;
 }

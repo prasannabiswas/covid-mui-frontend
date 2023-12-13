@@ -7,8 +7,11 @@ import {
 } from "@mui/material";
 import React from "react";
 import coronaRedImg from "../../assets/download.jpeg";
+import { useViewportScroll } from "framer-motion";
 
 const About = () => {
+  const {scrollYProgress} = useViewportScroll();
+  
   return (
     <Container maxWidth="md">
       <Grid
